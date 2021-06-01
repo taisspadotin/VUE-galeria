@@ -18,4 +18,4 @@ npm run dev
 npm install vue-resource@1.0.3 --save
 ```
 
-<img src="https://raw.githubusercontent.com/taisspadotin/vue_galeria/blob/master/img/galeria.png"/>
+<img src="https://raw.githubusercontent.com/taisspadotin/vue_galeria/master/img/galeria.png"/>
