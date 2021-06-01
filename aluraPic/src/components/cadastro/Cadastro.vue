@@ -1,13 +1,15 @@
 <template>
   <div>
-    <h1 class="centralizado">Cadastro</h1>
+    <meu-titulo titulo="Cadastro"/>
   </div>
 </template>
 
 <script>
-
+import Painel from '../shared/painel/Painel.vue';
 export default {
-
+  components: {
+    'meu-titulo': Painel
+  }
 }
 
 </script>

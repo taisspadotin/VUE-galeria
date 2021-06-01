@@ -14,7 +14,12 @@
     <div class="row-galeria">
       <div class="card" v-for="foto of fotosComFiltro">
         <card-content :foto="foto"/>
-        <meu-botao rotulo="remover" tipo="button" @botaoAtivado="remove(foto)"/>
+        <meu-botao 
+          rotulo="remover" 
+          tipo="button" 
+          :confirmacao="false"
+          estilo="perigo"
+          @botaoAtivado="remove(foto)"/>
       </div>  
     </div>
     
@@ -67,19 +72,6 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap');
-
-  body{
-    background: #2c2c2c;    
-  }
-  
-  .corpo{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    margin: 0;
-    color: #fff;
-  }
-
   .row-galeria{
     display: flex;
     box-sizing: border-box;

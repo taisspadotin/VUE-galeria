@@ -27,13 +27,18 @@ export default {
 </script>
 
 <style>
-  .corpo {
-    font-family: Helvetica, sans-serif;
-    margin: 0 auto;
-    width: 96%;
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap');
+  
+  .corpo{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0;
+    color: #fff;
   }
+
   body{
     margin: 0;
+    background: #2c2c2c;    
   }
 
 </style>
